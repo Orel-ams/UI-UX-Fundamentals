@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#fond {
+    position:relative;
+}
+
+#Nom {
+    display: flex;
+    width: 50px;
+    height: 100px;
+}

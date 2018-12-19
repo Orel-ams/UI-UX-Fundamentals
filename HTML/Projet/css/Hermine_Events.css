@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#fond {
+    background-image: url('Background.jpg');
+    
+    
+}
+
+
+#logo {
+    
+    width: 150px; 
+    align-items: center;
+    
+    
+}
+
+#fb {
+    width: 75px;
+     
+}
+
+#insta {
+    width: 55px;
+}
+
+#twi {
+    width: 50px;
+}
+
+h1 {
+    text-align: center;
+    text-align: 
+    
+}
+
+#user {
+    width : 60px;
+}
+
+#lang {
+    width: 60px;
+}
+
+#select {
+    width: 40px;
+        
+}
+
+#photo {
+    width: 350px;
+}
+
+#gauche {
+    width: 100px;
+}
+#droite {
+    width: 100px;
+}
+#bulle {
+    width: 125px;
+}
+#tel {
+    width: 100px;
+}
+#cad {
+    width: 100px;
+}
+#livre {
+    width: 100px;
+}

@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+ 
+/*TITRE*/
+@font-face {
+    font-family: "Bazar", serif;
+    src: url("Bazar.ttf");
+}
+ 
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Bazar", serif;
+}
+ 

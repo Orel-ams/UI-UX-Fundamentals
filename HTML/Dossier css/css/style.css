@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#bleu {
+    color: #19acf0;
+    background-color: brown;
+}
+.gris {
+    color: rgb(37,45,21);
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+h1 {   
+ font-family: "Roboto" , "sans-sérif";
+    text-align: center;
+    font: normal bold 32px "Roboto" , "sans-sérif"; 
+    background-color: chartreuse;
+    margin-left: 100px;
+    border-style: dashed;
+    box-shadow: 5px 5px red;
+    text-shadow: 5px 5px 2px yellow;
+    
+    
+}
+  p {
+    font: italic bold 15px Verdana, serif;
+    margin: 5px;
+    border-style: dashed;
+    display: inline-block;
+    vertical-align: bottom;
+    
+}
+
+#position {
+    position: relative;
+}
+#position {
+    margin: 50px;
+    padding: 50px;
+    background-color: firebrick;
+    position: absolute;
+    top: ; 40px;
+    right: 250px;
+    
+}
+h1 {
+    color: forestgreen;
+}
+h1:hover {
+    color:red;
+}
+
+h2 {
+    position: relative;
+    }
+#postion::after{
+    content: "";
+    width: 50px;
+    height: 0;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    border: 1px solid red;
+}
+h1::before {
+    content: "Réalisé par Aurélien"
+}
+#circle { 
+    width: 100px; 
+        height: 100px; 
+        background: red; 
+        border-radius: 50px;
+        
+}
+#pixelart-to-css {
+  box-shadow: 25px 15px 0 0 #000000, 30px 15px 0 0 #000000, 35px 15px 0 0 #000000, 20px 20px 0 0 #000000, 25px 20px 0 0 #000000, 30px 20px 0 0 #000000, 35px 20px 0 0 #000000, 40px 20px 0 0 #000000, 20px 25px 0 0 #000000, 25px 25px 0 0 #000000, 30px 25px 0 0 #000000, 35px 25px 0 0 #000000, 40px 25px 0 0 #000000, 20px 30px 0 0 #000000, 25px 30px 0 0 #ffcdd2, 30px 30px 0 0 #ffcdd2, 35px 30px 0 0 #ffcdd2, 40px 30px 0 0 #000000, 25px 35px 0 0 #000000, 30px 35px 0 0 #ffcdd2, 35px 35px 0 0 #000000, 45px 35px 0 0 #ffcdd2, 25px 40px 0 0 #ffcdd2, 30px 40px 0 0 #ffcdd2, 35px 40px 0 0 #ffcdd2, 45px 40px 0 0 #ff0000, 25px 45px 0 0 #ff0000, 30px 45px 0 0 #ff0000, 35px 45px 0 0 #ff0000, 45px 45px 0 0 #ff0000, 15px 50px 0 0 #ff0000, 20px 50px 0 0 #ff0000, 25px 50px 0 0 #ff0000, 30px 50px 0 0 #ffc107, 35px 50px 0 0 #ff0000, 40px 50px 0 0 #ff0000, 45px 50px 0 0 #ff0000, 15px 55px 0 0 #ff0000, 25px 55px 0 0 #ff0000, 30px 55px 0 0 #ff0000, 35px 55px 0 0 #ff0000, 15px 60px 0 0 #ff0000, 25px 60px 0 0 #ff0000, 30px 60px 0 0 #ffc107, 35px 60px 0 0 #ff0000, 15px 65px 0 0 #ffcdd2, 25px 65px 0 0 #3f51b5, 30px 65px 0 0 #3f51b5, 35px 65px 0 0 #3f51b5, 25px 70px 0 0 #3f51b5, 35px 70px 0 0 #3f51b5, 25px 75px 0 0 #3f51b5, 35px 75px 0 0 #3f51b5, 25px 80px 0 0 #795548, 35px 80px 0 0 #795548, 20px 85px 0 0 #795548, 25px 85px 0 0 #795548, 35px 85px 0 0 #795548, 40px 85px 0 0 #795548;
+  height: 5px;
+  width: 5px;
+}
+#triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid transparent;
+    border-left: 100px;
+    border-right: 100px solid blue;
+    border-top: 100px solid transparent;
+    transition: width 2s linear 1s;
+    
+} #transition {
+    
+}

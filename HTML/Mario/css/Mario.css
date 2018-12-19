@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+#mario {
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-name: mario_mouv;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards; 
+  }
+
+@keyframes mario_mouv {
+    from{
+        left: 0;
+    }
+    to{
+        left: 200px;
+    }
+}
+
+#mario2 {
+    animation-delay: 1s;
+    animation-duration: 1;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-name: mario_mouv2;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+} 
+
+@keyframes mario_mouv2 {
+    from{
+        left: 0;
+    }
+    to{
+        left: 200px;
+    }
+}
+
+body{
+    background-color: cornflowerblue
+}
